@@ -92,7 +92,6 @@ if(isset($_REQUEST["Enviar"]))
 <!-- tabela com consulta do bd -->
 <table border=1 >
     <tr>
-        <th scope="col">ID</th>
         <th scope="col">Nome</th>
         <th scope="col">Média</th>
         <th scope="col">Situação</th>
@@ -112,7 +111,6 @@ try{
      ?> 
 
     <tr>
-      <td><?php echo $row["cod_boletim"]?></td>
       <td><?php echo $row["nome"]?></td>
       <td><?php echo $row["media"]?></td>
       <td><?php echo $row["situacao"]?></td>
